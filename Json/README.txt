@@ -1,0 +1,1 @@
+Note: json files are joined into one folder for organization clarity. They should be in the same directory as their src files to use the data.
