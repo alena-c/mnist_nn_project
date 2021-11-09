@@ -28,4 +28,4 @@ As I mentioned above, the input layer was represented by a 784-dimensional vecto
 
 ![image](./images/nn_architecture.png)
 
-(![image made with](./src/nn_architecture.py))
+(![image made with nn_architecture.py](./src/nn_architecture.py))
