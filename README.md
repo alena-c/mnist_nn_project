@@ -26,4 +26,4 @@ The MNIST-digit data is a collection of the labeled hand-written digits. It cons
  
 As I mentioned above, the input layer was represented by a 784-dimensional vector, with each vector’s value representing the saturation of each pixel in an image. The output layer was represented with 10 neurons (10 classes), each classifying one of 10 ten digits (0-9).  The hidden layer situation was not as clear, but for simplicity of representation, my NN with a 15-neurons hidden layer could be depicted as follows:
 
-![image](./images/nn_architecture.py)
+![image](./images/nn_architecture.png)
