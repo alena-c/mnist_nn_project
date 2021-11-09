@@ -1,4 +1,5 @@
 # Building a Hand Written Digits Recognition Neural Network from scratch
+![image](./images/nn_architecture.png)
 
 For this project I decided to build a three-layer (one-hidden layer) Artificial Neural Network (ANN) which classifies handwritten digits.  Nowadays, the existence of various machine learning libraries like TensorFlow, Keras, and others greatly simplifies this process, although my aim was to understand how the NN can be built from scratch, to get the exposure to the various factors responsible for the ANN’s performance, and to explore the difference between such factors with the help of visualization. 
 
@@ -24,8 +25,5 @@ The MNIST-digit data is a collection of the labeled hand-written digits. It cons
  
  It is very important to understand the data you working with, which took me quite awhile. Even after getting familiar with the structure of your data, after seeing how it should be transformed so you are able use it for your NN, I learned eventually that one never should assume that everything is the way one thinks it is. I came to conclusion that visualization of a few random images from the set (e.g.) before the training starts is a must — that would help to avoid some dead-ends or confusions and, most importantly, save time (more on that below). 
  
-As I mentioned above, the input layer was represented by a 784-dimensional vector, with each vector’s value representing the saturation of each pixel in an image. The output layer was represented with 10 neurons (10 classes), each classifying one of 10 ten digits (0-9).  The hidden layer situation was not as clear, but for simplicity of representation, my NN with a 15-neurons hidden layer could be depicted as follows:
-
-![image](./images/nn_architecture.png)
-
-(![image made with nn_architecture.py](./src/nn_architecture.py))
+As I mentioned above, the input layer was represented by a 784-dimensional vector, with each vector’s value representing the saturation of each pixel in an image. The output layer was represented with 10 neurons (10 classes), each classifying one of 10 ten digits (0-9).  The hidden layer situation was not as clear, but for simplicity of representation, my NN with a 15-neurons hidden layer (depicted at the beginning of the page). The image was image made with 
+![nn_architecture.py](./src/nn_architecture.py).
